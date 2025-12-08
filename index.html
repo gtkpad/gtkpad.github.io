@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio online de Gabriel Vargas Padilha - Engenheiro de Software Sênior"
+    />
+    <meta name="author" content="Gabriel Vargas Padilha" />
+    <title>Gabriel Vargas Padilha | Engenheiro de Software Sênior</title>
+
+    <!-- Favicon (opcional - pode adicionar depois) -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ========================================
+         HEADER - Menu de Navegação
+         ======================================== -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <!-- Logo/Nome -->
+          <a href="#sobre" class="nav__logo">Gabriel Padilha</a>
+
+          <!-- Menu de Navegação -->
+          <ul class="nav__menu" id="navMenu">
+            <li class="nav__item">
+              <a href="#sobre" class="nav__link">Sobre mim</a>
+            </li>
+            <li class="nav__item">
+              <a href="#formacao" class="nav__link">Formação</a>
+            </li>
+            <li class="nav__item">
+              <a href="#experiencia" class="nav__link">Experiência</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfólio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contato" class="nav__link">Contato</a>
+            </li>
+          </ul>
+
+          <!-- Toggle Tema Claro/Escuro -->
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Alternar tema"
+          >
+            <span class="theme-toggle__icon">🌙</span>
+          </button>
+
+          <!-- Menu Hambúrguer (Mobile) -->
+          <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+            <span class="nav__toggle-icon"></span>
+            <span class="nav__toggle-icon"></span>
+            <span class="nav__toggle-icon"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ========================================
+         MAIN CONTENT - Todas as Seções
+         ======================================== -->
+    <main class="main">
+      <!-- ========================================
+             SEÇÃO 1: SOBRE MIM
+             ======================================== -->
+      <section class="section section--sobre" id="sobre">
+        <div class="container">
+          <h1 class="section__title">Sobre Mim</h1>
+
+          <div class="sobre__content">
+            <!-- Foto de Perfil -->
+            <div class="sobre__image">
+              <img
+                src="assets/images/profile.jpeg"
+                alt="Foto de Gabriel Vargas Padilha"
+                class="sobre__photo"
+              />
+            </div>
+
+            <!-- Informações Pessoais -->
+            <div class="sobre__info">
+              <h2 class="sobre__name">Gabriel Vargas Padilha</h2>
+              <p class="sobre__role">Engenheiro de Software Sênior</p>
+
+              <p class="sobre__description">
+                Profissional de tecnologia com ampla experiência em
+                desenvolvimento full stack e segurança de dados. Atuação sólida
+                no design e implementação de microserviços, revisão de código e
+                liderança técnica de equipes.
+              </p>
+
+              <p class="sobre__description">
+                Experiência em orquestração de infraestrutura e práticas de
+                DevOps, gerenciamento de pipelines CI/CD, Kubernetes (Argo CD) e
+                clusters em nuvem. Proficiência em C#/.NET,
+                JavaScript/TypeScript, Python, Golang e PHP.
+              </p>
+
+              <p class="sobre__description">
+                Membro experiente do programa CPITS da Trend Micro, com
+                certificações AWS Solutions Architect e Microsoft Azure. Foco em
+                desenvolvimento de aplicações distribuídas altamente disponíveis
+                e extremamente escaláveis.
+              </p>
+
+              <!-- Especialidades -->
+              <div class="sobre__hobbies">
+                <h3 class="sobre__subtitle">Especialidades</h3>
+                <ul class="hobbies__list">
+                  <li class="hobbies__item">
+                    🏗️ Arquitetura de Microserviços e Sistemas Distribuídos
+                  </li>
+                  <li class="hobbies__item">
+                    ☸️ Kubernetes, Docker e Orquestração de Containers
+                  </li>
+                  <li class="hobbies__item">
+                    ☁️ Cloud Computing (AWS, Azure) e DevOps
+                  </li>
+                  <li class="hobbies__item">
+                    🔐 Segurança da Informação e Cybersecurity
+                  </li>
+                  <li class="hobbies__item">
+                    👨‍💻 Liderança Técnica e Code Review
+                  </li>
+                  <li class="hobbies__item">
+                    ⚡ CI/CD e Automação de Processos
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             SEÇÃO 2: FORMAÇÃO
+             ======================================== -->
+      <section class="section section--formacao" id="formacao">
+        <div class="container">
+          <h2 class="section__title">Formação</h2>
+
+          <!-- Educação -->
+          <div class="formacao__category">
+            <h3 class="formacao__subtitle">
+              <span class="formacao__icon">🎓</span>
+              Educação
+            </h3>
+
+            <div class="formacao__item">
+              <h4 class="formacao__title">
+                Bacharelado em Ciência da Computação
+              </h4>
+              <p class="formacao__institution">
+                UNINTER - Centro Universitário Internacional
+              </p>
+              <p class="formacao__period">2025 - Atual (Cursando)</p>
+              <p class="formacao__description">
+                Formação em fundamentos da computação, algoritmos, estruturas de
+                dados, engenharia de software, redes de computadores, segurança
+                da informação e desenvolvimento de sistemas.
+              </p>
+            </div>
+
+            <div class="formacao__item">
+              <h4 class="formacao__title">
+                Bacharelado em Ciência da Computação
+              </h4>
+              <p class="formacao__institution">
+                Instituto Federal Farroupilha – Campus Frederico Westphalen
+              </p>
+              <p class="formacao__period">2019 - 2021 (Trancado)</p>
+              <p class="formacao__description">
+                Cursou disciplinas de fundamentos da computação, algoritmos,
+                estruturas de dados, programação e redes de computadores. Curso
+                trancado para retomada posterior em outra instituição.
+              </p>
+            </div>
+          </div>
+
+          <!-- Cursos e Certificações -->
+          <div class="formacao__category">
+            <h3 class="formacao__subtitle">
+              <span class="formacao__icon">📜</span>
+              Cursos & Certificações
+            </h3>
+
+            <div class="formacao__grid">
+              <div class="curso__card">
+                <h4 class="curso__title">CPITS - Cybersecurity Program</h4>
+                <p class="curso__platform">Trend Micro</p>
+                <p class="curso__duration">Programa Completo</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">AWS Solutions Architect</h4>
+                <p class="curso__platform">Amazon Web Services</p>
+                <p class="curso__duration">Certificação</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">Azure AZ-101</h4>
+                <p class="curso__platform">Microsoft Azure</p>
+                <p class="curso__duration">Preparatório</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">NestJS Official Courses</h4>
+                <p class="curso__platform">NestJS</p>
+                <p class="curso__duration">Curso Oficial</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">Fullcycle Developer</h4>
+                <p class="curso__platform">Full Cycle</p>
+                <p class="curso__duration">Formação Completa</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">Curso de Kubernetes</h4>
+                <p class="curso__platform">Full Cycle</p>
+                <p class="curso__duration">Especialização</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">Novo Pentest Profissional</h4>
+                <p class="curso__platform">Desec Security</p>
+                <p class="curso__duration">Curso Avançado</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">Microsserviços</h4>
+                <p class="curso__platform">Full Cycle</p>
+                <p class="curso__duration">Arquitetura</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">Encoder de Vídeo com Go</h4>
+                <p class="curso__platform">Full Cycle</p>
+                <p class="curso__duration">Projeto Prático</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">Autenticação e Keycloak</h4>
+                <p class="curso__platform">Full Cycle</p>
+                <p class="curso__duration">Especialização</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">Fundamentos de Arquitetura</h4>
+                <p class="curso__platform">Full Cycle</p>
+                <p class="curso__duration">Curso Base</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+
+              <div class="curso__card">
+                <h4 class="curso__title">Integração Contínua</h4>
+                <p class="curso__platform">Full Cycle</p>
+                <p class="curso__duration">CI/CD</p>
+                <p class="curso__status">✅ Concluído</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Idiomas -->
+          <div class="formacao__category">
+            <h3 class="formacao__subtitle">
+              <span class="formacao__icon">🌍</span>
+              Idiomas
+            </h3>
+
+            <div class="idiomas__list">
+              <div class="idioma__item">
+                <h4 class="idioma__name">Português</h4>
+                <div class="idioma__level">
+                  <span class="level__bar level--nativo"></span>
+                  <span class="level__text">Nativo</span>
+                </div>
+              </div>
+
+              <div class="idioma__item">
+                <h4 class="idioma__name">Inglês</h4>
+                <div class="idioma__level">
+                  <span class="level__bar level--avancado"></span>
+                  <span class="level__text">Avançado (Profissional)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             SEÇÃO 3: EXPERIÊNCIA PROFISSIONAL
+             ======================================== -->
+      <section class="section section--experiencia" id="experiencia">
+        <div class="container">
+          <h2 class="section__title">Experiência Profissional</h2>
+          <p class="section__subtitle">
+            Trajetória profissional e principais conquistas
+          </p>
+
+          <div class="experiencia__timeline">
+            <!-- Experiência 1: CI&T -->
+            <div class="exp__item">
+              <div class="exp__marker"></div>
+              <div class="exp__content">
+                <div class="exp__header">
+                  <h3 class="exp__title">Senior Full-Stack Developer</h3>
+                  <span class="exp__company">CI&T</span>
+                </div>
+                <p class="exp__period">Março de 2025 — Atual</p>
+                <p class="exp__location">📍 Campinas, SP (Remoto)</p>
+                <p class="exp__description">
+                  Desenvolvimento de aplicações distribuídas altamente
+                  disponíveis e extremamente escaláveis, incluindo o desenho e a
+                  documentação de arquiteturas robustas na AWS. Atuação no
+                  desenvolvimento de soluções com Node.js e React. Mentoria e
+                  apoio a desenvolvedores juniores por meio de revisões de
+                  código e disseminação de boas práticas.
+                </p>
+                <div class="exp__tags">
+                  <span class="tag">Node.js</span>
+                  <span class="tag">React</span>
+                  <span class="tag">AWS</span>
+                  <span class="tag">Microservices</span>
+                  <span class="tag">Mentoria</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experiência 2: Nstech -->
+            <div class="exp__item">
+              <div class="exp__marker"></div>
+              <div class="exp__content">
+                <div class="exp__header">
+                  <h3 class="exp__title">Senior Full-Stack Developer</h3>
+                  <span class="exp__company">Nstech (multitms)</span>
+                </div>
+                <p class="exp__period">Julho de 2024 — Fevereiro de 2025</p>
+                <p class="exp__location">📍 Chapecó, SC (Remoto)</p>
+                <p class="exp__description">
+                  Atuação em desenvolvimento full stack na plataforma .NET (.NET
+                  Core/C# e front-end web). Responsável por análise e redução de
+                  dívida técnica do código e da arquitetura do sistema,
+                  incluindo refatorações. Contribuição ativa no desenho e
+                  implementação de novas funcionalidades e evoluções
+                  arquiteturais visando escalabilidade, performance e
+                  atendimento às demandas do negócio.
+                </p>
+                <div class="exp__tags">
+                  <span class="tag">C#</span>
+                  <span class="tag">.NET Core</span>
+                  <span class="tag">ASP.NET</span>
+                  <span class="tag">Refatoração</span>
+                  <span class="tag">Arquitetura</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experiência 3: Brasilfone -->
+            <div class="exp__item">
+              <div class="exp__marker"></div>
+              <div class="exp__content">
+                <div class="exp__header">
+                  <h3 class="exp__title">Tech Lead / Developer</h3>
+                  <span class="exp__company">Brasilfone Telecom</span>
+                </div>
+                <p class="exp__period">Novembro de 2021 — Junho de 2024</p>
+                <p class="exp__location">📍 Chapecó, SC (Remoto)</p>
+                <p class="exp__description">
+                  Atuação como líder técnico, realizando revisões de código e
+                  definindo a arquitetura e os padrões de desenvolvimento da
+                  empresa. Responsável pelo fluxo de DevOps, incluindo
+                  configuração e manutenção de pipelines CI/CD, servidores e
+                  clusters de banco de dados. Liderança na gestão de clusters
+                  Kubernetes com deploy automatizado via ArgoCD, garantindo
+                  entrega contínua, confiabilidade e alta escalabilidade.
+                </p>
+                <div class="exp__tags">
+                  <span class="tag">Kubernetes</span>
+                  <span class="tag">ArgoCD</span>
+                  <span class="tag">DevOps</span>
+                  <span class="tag">CI/CD</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Golang</span>
+                  <span class="tag">PHP</span>
+                  <span class="tag">C#</span>
+                  <span class="tag">React</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experiência 4: Trend Micro -->
+            <div class="exp__item">
+              <div class="exp__marker"></div>
+              <div class="exp__content">
+                <div class="exp__header">
+                  <h3 class="exp__title">CPITS - Cybersecurity Program</h3>
+                  <span class="exp__company">Trend Micro</span>
+                </div>
+                <p class="exp__period">Setembro de 2021 — Novembro de 2021</p>
+                <p class="exp__location">📍 Programa de Certificação</p>
+                <p class="exp__description">
+                  Participação no programa intensivo CPITS (Certification
+                  Program in IT Security), incluindo desenvolvimento de soft
+                  skills, workshops de segurança da informação, treinamentos
+                  oficiais AWS e Azure, certificações Trend Micro e participação
+                  em CTFs (Capture The Flag) de cybersecurity.
+                </p>
+                <div class="exp__tags">
+                  <span class="tag">Cybersecurity</span>
+                  <span class="tag">AWS</span>
+                  <span class="tag">Azure</span>
+                  <span class="tag">CTF</span>
+                  <span class="tag">Certificações</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experiência 5: SpeedRS - Network Manager -->
+            <div class="exp__item">
+              <div class="exp__marker"></div>
+              <div class="exp__content">
+                <div class="exp__header">
+                  <h3 class="exp__title">Network Manager / Developer</h3>
+                  <span class="exp__company">SpeedRS</span>
+                </div>
+                <p class="exp__period">Março de 2021 — Outubro de 2021</p>
+                <p class="exp__location">
+                  📍 Frederico Westphalen, RS (Híbrido)
+                </p>
+                <p class="exp__description">
+                  Liderança do time de NOC, definição de processos, suporte 24/7
+                  e gerenciamento de roteadores, switches e firewalls para
+                  garantir alta disponibilidade e performance de tráfego
+                  LAN/WAN. Desenvolvimento de soluções internas em Node.js,
+                  React, Python e PHP, criando automações e dashboards que
+                  simplificaram fluxos operacionais.
+                </p>
+                <div class="exp__tags">
+                  <span class="tag">NOC</span>
+                  <span class="tag">Networking</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">React</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Automação</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experiência 6: SpeedRS - Network Analyst -->
+            <div class="exp__item">
+              <div class="exp__marker"></div>
+              <div class="exp__content">
+                <div class="exp__header">
+                  <h3 class="exp__title">Network Analyst / Developer</h3>
+                  <span class="exp__company">SpeedRS</span>
+                </div>
+                <p class="exp__period">Novembro de 2019 — Março de 2021</p>
+                <p class="exp__location">
+                  📍 Frederico Westphalen, RS (Híbrido)
+                </p>
+                <p class="exp__description">
+                  Atuação como analista de redes, com monitoramento contínuo e
+                  manutenção da infraestrutura (roteadores, switches e
+                  servidores). Desenvolvimento de softwares internos em Node.js,
+                  React, Python e PHP para automação e suporte operacional.
+                  Implementação de políticas de segurança, roteamento e
+                  monitoramento para garantir integridade, disponibilidade e
+                  performance da rede.
+                </p>
+                <div class="exp__tags">
+                  <span class="tag">Redes</span>
+                  <span class="tag">Monitoramento</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">PHP</span>
+                  <span class="tag">Segurança</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             SEÇÃO 4: PORTFÓLIO
+             ======================================== -->
+      <section class="section section--portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="section__title">Portfólio</h2>
+          <p class="section__subtitle">
+            Confira alguns dos meus projetos desenvolvidos
+          </p>
+
+          <div class="portfolio__grid">
+            <!-- Projeto 1: POC CQRS Todo NestJS -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">TypeScript</span>
+                  <span class="projeto__tag">NestJS</span>
+                  <span class="projeto__tag">CQRS</span>
+                </div>
+                <h3 class="projeto__title">POC CQRS Todo NestJS</h3>
+                <p class="projeto__description">
+                  Prova de conceito implementando padrão CQRS (Command Query
+                  Responsibility Segregation) com NestJS em aplicação de
+                  tarefas. Demonstra separação de comandos e consultas para
+                  melhor escalabilidade.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/poc-cqrs-todo-nestjs"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 2: Clean Architecture + DDD TypeScript -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">TypeScript</span>
+                  <span class="projeto__tag">Clean Architecture</span>
+                  <span class="projeto__tag">DDD</span>
+                </div>
+                <h3 class="projeto__title">Clean Architecture + DDD</h3>
+                <p class="projeto__description">
+                  Projeto demonstrando Clean Architecture e Domain-Driven Design
+                  (DDD) implementados em TypeScript com Node.js. Arquitetura
+                  modular e separação de responsabilidades.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/ts-clean-architecture-ddd"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 3: In-Memory Database Go -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">Go</span>
+                  <span class="projeto__tag">Database</span>
+                  <span class="projeto__tag">CRUD</span>
+                </div>
+                <h3 class="projeto__title">In-Memory Database Go</h3>
+                <p class="projeto__description">
+                  Implementação de banco de dados em memória do zero usando Go
+                  com operações CRUD e estruturas de dados eficientes. Projeto
+                  educacional demonstrando fundamentos de databases.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/in-memory-db-go"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 4: Desafio Multithreading Go -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">Go</span>
+                  <span class="projeto__tag">Concurrency</span>
+                  <span class="projeto__tag">Goroutines</span>
+                </div>
+                <h3 class="projeto__title">Desafio Multithreading Go</h3>
+                <p class="projeto__description">
+                  Desafio de programação concorrente em Go explorando
+                  goroutines, channels e sincronização de threads. Demonstra
+                  expertise em processamento paralelo e assíncrono.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/DesafioMultithreading"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 5: In-Memory Database C++ -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">C++</span>
+                  <span class="projeto__tag">Database</span>
+                  <span class="projeto__tag">Performance</span>
+                </div>
+                <h3 class="projeto__title">In-Memory Database C++</h3>
+                <p class="projeto__description">
+                  Sistema de banco de dados em memória construído do zero em C++
+                  com foco em performance e estruturas de dados otimizadas.
+                  Demonstra conhecimento profundo de sistemas de baixo nível.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/in-memory-db-c"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 6: CQRS Todo Example C# -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">C#</span>
+                  <span class="projeto__tag">CQRS</span>
+                  <span class="projeto__tag">MediatR</span>
+                </div>
+                <h3 class="projeto__title">CQRS Todo Example</h3>
+                <p class="projeto__description">
+                  Implementação de exemplo do padrão CQRS em C# para aplicação
+                  de tarefas usando MediatR e Entity Framework. Demonstra
+                  separação entre comandos e consultas em .NET.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/CQRSTodoExample"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 7: Monolith Clean Architecture -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">TypeScript</span>
+                  <span class="projeto__tag">Clean Architecture</span>
+                  <span class="projeto__tag">Monolith</span>
+                </div>
+                <h3 class="projeto__title">Monolith Clean Architecture</h3>
+                <p class="projeto__description">
+                  Implementação de Clean Architecture em aplicação monolítica
+                  usando TypeScript e princípios de design modular. Estrutura
+                  escalável e manutenível para sistemas monolíticos.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/ts-monolith-clean-arch"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 8: Arquitetura Hexagonal Go -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">Go</span>
+                  <span class="projeto__tag">Hexagonal</span>
+                  <span class="projeto__tag">Ports & Adapters</span>
+                </div>
+                <h3 class="projeto__title">Arquitetura Hexagonal Go</h3>
+                <p class="projeto__description">
+                  Projeto demonstrando Arquitetura Hexagonal (Ports and
+                  Adapters) em Go com separação clara entre domínio e
+                  infraestrutura. Foco em desacoplamento e testabilidade.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/arquitetura-hexagonal-go"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 9: Video Encoder -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">Go</span>
+                  <span class="projeto__tag">Video</span>
+                  <span class="projeto__tag">Encoding</span>
+                </div>
+                <h3 class="projeto__title">Video Encoder</h3>
+                <p class="projeto__description">
+                  Serviço de codificação de vídeos implementado em Go com
+                  suporte a diferentes formatos e qualidades. Processamento
+                  eficiente de mídia em sistemas distribuídos.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/video-encoder"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 10: NestJS Advanced Concepts -->
+            <article class="projeto__card">
+              <div class="projeto__content">
+                <div class="projeto__tags">
+                  <span class="projeto__tag">TypeScript</span>
+                  <span class="projeto__tag">NestJS</span>
+                  <span class="projeto__tag">Advanced</span>
+                </div>
+                <h3 class="projeto__title">NestJS Advanced Concepts</h3>
+                <p class="projeto__description">
+                  Exploração de conceitos avançados do NestJS incluindo Guards,
+                  Interceptors, Pipes, Middlewares e arquitetura modular.
+                  Demonstra domínio completo do framework.
+                </p>
+
+                <div class="projeto__links">
+                  <a
+                    href="https://github.com/gtkpad/nestjs-advanced-concepts"
+                    class="projeto__link projeto__link--code"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Código
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             SEÇÃO 4: CONTATO
+             ======================================== -->
+      <section class="section section--contato" id="contato">
+        <div class="container">
+          <h2 class="section__title">Contato</h2>
+          <p class="section__subtitle">
+            Entre em contato comigo. Vamos conversar!
+          </p>
+
+          <div class="contato__content">
+            <!-- Informações de Contato -->
+            <div class="contato__info">
+              <h3 class="contato__subtitle">Informações de Contato</h3>
+
+              <div class="info__item">
+                <span class="info__icon">📧</span>
+                <div class="info__text">
+                  <strong>Email:</strong>
+                  <a href="mailto:gabrielvargaspadilha@gmail.com"
+                    >gabrielvargaspadilha@gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="info__item">
+                <span class="info__icon">📧</span>
+                <div class="info__text">
+                  <strong>Email Alternativo:</strong>
+                  <a href="mailto:gvpadilha369@gmail.com"
+                    >gvpadilha369@gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="info__item">
+                <span class="info__icon">📱</span>
+                <div class="info__text">
+                  <strong>Telefone:</strong>
+                  <a href="tel:+5553991462615">+55 53 99146-2615</a>
+                </div>
+              </div>
+
+              <div class="info__item">
+                <span class="info__icon">📍</span>
+                <div class="info__text">
+                  <strong>Localização:</strong>
+                  <span>Pelotas, RS - Brasil</span>
+                </div>
+              </div>
+
+              <!-- Redes Sociais -->
+              <div class="contato__social">
+                <h4 class="social__title">Redes Sociais</h4>
+                <div class="social__links">
+                  <a
+                    href="https://www.linkedin.com/in/gabriel-vargas-padilha-03b71a185"
+                    class="social__link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                  >
+                    <span class="social__icon">💼</span>
+                    LinkedIn
+                  </a>
+                  <a
+                    href="https://github.com/gtkpad"
+                    class="social__link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                  >
+                    <span class="social__icon">🐙</span>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Formulário de Contato -->
+            <div class="contato__form-wrapper">
+              <h3 class="contato__subtitle">Envie uma Mensagem</h3>
+
+              <!-- Formulário com validação JavaScript -->
+              <form class="contato__form" id="contatoForm" novalidate>
+                <!-- Campo: Nome -->
+                <div class="form__group">
+                  <label for="nome" class="form__label">Nome *</label>
+                  <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    class="form__input"
+                    placeholder="Seu nome completo"
+                    required
+                    aria-required="true"
+                  />
+                  <span class="form__error" id="nomeError"></span>
+                </div>
+
+                <!-- Campo: Email -->
+                <div class="form__group">
+                  <label for="email" class="form__label">Email *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form__input"
+                    placeholder="seu.email@exemplo.com"
+                    required
+                    aria-required="true"
+                  />
+                  <span class="form__error" id="emailError"></span>
+                </div>
+
+                <!-- Campo: Mensagem -->
+                <div class="form__group">
+                  <label for="mensagem" class="form__label">Mensagem *</label>
+                  <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    class="form__input form__textarea"
+                    rows="6"
+                    placeholder="Digite sua mensagem aqui..."
+                    required
+                    aria-required="true"
+                  ></textarea>
+                  <span class="form__error" id="mensagemError"></span>
+                </div>
+
+                <!-- Botão de Envio -->
+                <button type="submit" class="form__button">
+                  Enviar Mensagem
+                </button>
+              </form>
+
+              <!-- Mensagem de Sucesso (oculta inicialmente) -->
+              <div class="form__success" id="formSuccess" style="display: none">
+                <span class="success__icon">✅</span>
+                <p class="success__message">Mensagem enviada com sucesso!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================================
+         FOOTER - Rodapé
+         ======================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__text">
+          &copy; 2025 Gabriel Vargas Padilha. Desenvolvido com ❤️ para o
+          trabalho de Fundamentos da Programação Web.
+        </p>
+        <p class="footer__credits">HTML5 • CSS3 • JavaScript Vanilla</p>
+      </div>
+    </footer>
+
+    <!-- ========================================
+         JavaScript Principal
+         ======================================== -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
