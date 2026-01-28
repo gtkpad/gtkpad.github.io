@@ -1,9 +1,3 @@
-/* ========================================
-   TRABALHO FUNDAMENTOS WEB
-   Autor: Gabriel Vieira Pinto
-   Arquivo: JavaScript Principal (sem frameworks)
-   ======================================== */
-
 "use strict"; // Modo estrito para evitar erros comuns
 
 /* ========================================
